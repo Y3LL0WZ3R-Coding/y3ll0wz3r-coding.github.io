@@ -1,0 +1,39 @@
+:root {
+ --link-color: black;
+}
+
+body {
+ font-family: "Helvetica", "Arial", sans-serif;
+ display: flex;
+ margin: 0;
+}
+
+nav ul {
+ list-style-type: none;
+ padding: 20px 0;
+ margin: 0 auto;
+ width: 100%;
+ text-align: center;
+ cursor: pointer;
+}
+
+nav {
+ background: #EEEEEE;
+ display: flex;
+ align-items: center;
+ width: 15%;
+}
+
+nav ul a {
+ color: var(--link-color);
+ text-decoration: none;
+}
+
+nav ul:hover {
+ background: #A90F1E;
+ --link-color: white;
+}
+
+#main {
+ margin: 0 0 0 15px;
+}
